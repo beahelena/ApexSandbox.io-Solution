@@ -1,0 +1,4 @@
+public Integer diff(Integer a, Integer b) {
+    Integer result = a - b;
+    return (result > 0) ? result : -result;
+}
